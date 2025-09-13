@@ -1,19 +1,19 @@
 # 🎵 Music Discovery Platform
 
-A full-stack music discovery platform that helps users explore new songs or nasheeds based on genre preferences.  
-Built with **Node.js + Express** for the backend and **React + Vite** for the frontend.
+A full-stack music discovery platform that helps users explore songs or nasheeds based on genres and moods.  
+Built with **Node.js + Express** (backend) and **React + Vite** (frontend).
 
 ---
 
 ## 🚀 Tech Stack
-- **Frontend:** React, Vite, TailwindCSS (optional for styling)
-- **Backend:** Node.js, Express
-- **API Integration:** Deezer (or mock dataset for recommendations)
-- **Version Control:** Git + GitHub
+- Frontend: React (Vite)
+- Backend: Node.js, Express
+- API: Deezer (public search + 30s previews)
+- Version control: Git + GitHub
 
 ---
 
-## 📂 Project Structure
+## 📂 Project structure
 music-discovery/
 ├── backend/ # Express backend (API routes, server)
 ├── frontend/ # React frontend (UI, created with Vite)
@@ -25,17 +25,17 @@ music-discovery/
 ---
 
 ## ⚡ Features
-✅ User can choose a genre and get music recommendations  
-✅ Clean UI built with React + Vite  
-✅ Backend API to serve recommendations (mock or Deezer API)  
-✅ Full-stack setup, ready for deployment  
+- User can choose a genre and get music recommendations  
+- Clean UI built with React + Vite  
+- Backend API to serve recommendations (Deezer API)
+- Play 30-second previews with player UI  
+- Full-stack setup, ready for deployment  
 
 ---
 
 ## 🛠️ Getting Started
 
 1️⃣ Clone the repository
-```bash
 git clone https://github.com/aryaprasadhere/music-discovery.git
 cd music-discovery
 
