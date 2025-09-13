@@ -1,0 +1,28 @@
+{
+  "name": "music-discovery",
+  "version": "1.0.0",
+  "description": "A full-stack music discovery platform that helps users explore songs or nasheeds based on genres and moods.  \r Built with **Node.js + Express** (backend) and **React + Vite** (frontend).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npx nodemon --watch backend backend/index.js\" \"npm --prefix frontend run dev\"",
+    "start:backend": "node backend/index.js",
+    "start:frontend": "npm --prefix frontend run preview",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryaprasadhere/music-discovery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aryaprasadhere/music-discovery/issues"
+  },
+  "homepage": "https://github.com/aryaprasadhere/music-discovery#readme",
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "nodemon": "^3.0.0"
+  }
+}
